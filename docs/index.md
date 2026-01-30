@@ -45,14 +45,14 @@
 
 <h2>Reilly Potter</h2>
 
+<img src="images/photo.jpg" alt="A photo of me" class="profile-pic">
+
 <h3>Introduction</h3>
 <div class="intro">
 
 Welcome to my website for ECE4160! I'm Reilly Potter, a junior majoring in Electrical and Computer Engineering with a minor in Robotics. I'm interested in assistive robotics and the future of prosthetics. I enjoy playing the drums and video games in my free time.
 
 </div>
-
-<img src="images/photo.jpg" alt="A photo of me" class="profile-pic">
 
 </body>
 </html>
