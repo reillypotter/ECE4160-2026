@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ECE 4160 Fast Robots Labs on Home</title>
+    <link>//localhost:1313/fast-robots/</link>
+    <description>Recent content in ECE 4160 Fast Robots Labs on Home</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/fast-robots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 1: The Artemis board and Bluetooth</title>
+      <link>//localhost:1313/fast-robots/lab-1/</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/fast-robots/lab-1/</guid>
+      <description>&lt;h2 id=&#34;lab-1a&#34;&gt;Lab 1a&lt;/h2&gt;&#xA;&lt;p&gt;For section 1A, I had to install the Arduino IDE and connect to the Artemis Nano microcontroller. I connected to the Artemis board using a USB cable to where I then selected the board through the Arduino IDE and tested various examples from the IDE. These included:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Basics_blink&lt;/li&gt;&#xA;&lt;li&gt;Apollo3_serial&lt;/li&gt;&#xA;&lt;li&gt;Apollo3_analogRead&lt;/li&gt;&#xA;&lt;li&gt;PDM_microphoneOutput&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;blink&#34;&gt;Blink&lt;/h4&gt;&#xA;&lt;p&gt;The Artemis board flashes a blue LED every second.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h4 id=&#34;serial&#34;&gt;Serial&lt;/h4&gt;&#xA;&lt;p&gt;Here we can see the Artemis recieves the string and echos it back&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
