@@ -1,23 +1,22 @@
 +++
-title = "Lab 1: Artemis Setup and Communication"
-date = 2025-01-26
-weight = 1
+title = "Lab 1: The Artemis board and Bluetooth"
+date = 2026-02-04
+weight = 12
 [taxonomies]
-tags = ["Robotics", "C++", "Sensors", "Python", "Embedded Software", "Microcontroller" ]
 +++
 
 ## Lab 1a
 
-During section 1a of the lab I installed the Arduino IDE and established a wired connection to communicate with the Artemis Nano. To connect I had to select the correct board and port in the Arduino IDE. Then, to test the connection and explore the Arduino environment I completed the following assigned example sketches in the Arduino IDE:
+For section 1A, I had to install the Arduino IDE and connect to the Artemis Nano microcontroller. I connected to the Artemis board using a USB cable to where I then selected the board through the Arduino IDE and tested various examples from the IDE. These included: 
 - Basics_blink
 - Apollo3_serial
 - Apollo3_analogRead
 - PDM_microphoneOutput
 
 #### Blink
-You can see the Artemis board flash a bright blue led
-<iframe width="450" height="315" src="https://youtube.com/embed/5VB6kE0aCQg"allowfullscreen></iframe>
-<figcaption>Blink test video</figcaption>
+The Artemis board flashes a blue LED every second.
+<iframe width="450" height="315" src="https://youtube.com/embed/MrdPBHumuyY"allowfullscreen></iframe>
+<figcaption>Blink test</figcaption>
 
 #### Serial
 Here we can see the Artemis recieves the string and echos it back
@@ -25,13 +24,14 @@ Here we can see the Artemis recieves the string and echos it back
 <figcaption>Serial output test</figcaption>
 
 #### analogRead Temperature Sensor
-<iframe width="450" height="315" src="https://www.youtube.com/embed/RllC7NYdNTk"allowfullscreen></iframe>
+As I hold the board, the temperature increases from consistent 33100 readings to 33300 readings.
+<iframe width="450" height="315" src="https://youtube.com/embed/VmS2qm2H8vI"allowfullscreen></iframe>
 <figcaption>Temperature sensor test</figcaption>
 
 #### Microphone Output
-From the video you can see the Artemis microphone successfully picking up the difference in sounds in the serial monitor
-<iframe width="450" height="315" src="https://www.youtube.com/embed/gBEvY_Qi8gs"allowfullscreen></iframe>
-<figcaption>Micrphone output test</figcaption>
+You can see the values of ambient noise and then a jump in frequency as I provide sound. 
+<iframe width="450" height="315" src="https://youtube.com/embed/poW4jzCsWfI"allowfullscreen></iframe>
+<figcaption>Microphone test</figcaption>
 
 ## Lab 1b
 
