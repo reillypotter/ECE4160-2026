@@ -1,9 +1,8 @@
 +++
-title = "Lab 1: Artemis Setup and Communication"
-date = 2025-01-26
+title = "Lab 1: The Artemis board and Bluetooth"
+date = 2026-02-04
 weight = 12
 [taxonomies]
-tags = ["Robotics", "C++", "Sensors", "Python", "Embedded Software", "Microcontroller" ]
 +++
 
 ## Lab 1a

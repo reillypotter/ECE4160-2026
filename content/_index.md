@@ -22,10 +22,6 @@ title = "About Me"
 
 <img src="/photo.jpg#no-hover#start" alt="Profile Picture" style="display:block;">
 
-<!-- <img src="/Jackson.jpeg#no-hover#start" alt="Ski" style="display:block;">
-
-<img src="/TeamPic.png#no-hover#start" alt="Team Picture" style="display:block;"> -->
-
 <div style="clear: both;"></div> <!-- This ensures content below the images is cleared of float or flex constraints. -->
 
 <p>Junior at Cornell University studying Electrical and Computer Engineering with a minor in Robotics</p>
