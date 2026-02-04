@@ -20,7 +20,7 @@ title = "About Me"
 
 <br />
 
-<img src="static/photo.jpg#no-hover#start" alt="Profile Picture" style="display:block;">
+<img src="photo.jpg#no-hover#start" alt="Profile Picture" style="display:block;">
 
 <div style="clear: both;"></div> <!-- This ensures content below the images is cleared of float or flex constraints. -->
 
