@@ -16,6 +16,9 @@ buildFuture = false
 
 enableEmoji = true
 
+relativeURLs = true
+uglyURLs = true
+
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
