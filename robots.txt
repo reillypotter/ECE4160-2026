@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reillypotter.github.io/ECE4160-2026/sitemap.xml
