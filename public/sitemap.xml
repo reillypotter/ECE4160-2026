@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
     <loc>https://reillypotter.github.io/ECE4160-2026/index.html</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://reillypotter.github.io/ECE4160-2026/labs/lab1.html</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://reillypotter.github.io/ECE4160-2026/labs/lab2.html</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
-  </url><url>
+  </url>
+  <url>
     <loc>https://reillypotter.github.io/ECE4160-2026/labs/index.html</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://reillypotter.github.io/ECE4160-2026/authors/index.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://reillypotter.github.io/ECE4160-2026/categories/index.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://reillypotter.github.io/ECE4160-2026/series/index.html</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://reillypotter.github.io/ECE4160-2026/tags/index.html</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
