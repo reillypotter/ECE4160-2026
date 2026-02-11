@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on ECE 4160 - Fast Robots</title>
+    <link>http://localhost:1313/ECE4160-2026/authors/</link>
+    <description>Recent content in Authors on ECE 4160 - Fast Robots</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>rdp78@cornell.edu (Reilly Potter)</managingEditor>
+    <webMaster>rdp78@cornell.edu (Reilly Potter)</webMaster>
+    <copyright>© 2026 Reilly Potter</copyright>
+    <atom:link href="http://localhost:1313/ECE4160-2026/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

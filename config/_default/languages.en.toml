@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "ECE 4160 - Fast Robots"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+   name = "Reilly Potter"
+   email = "rdp78@cornell.edu"
+   image = "img/Profile.jpg"
+   imageQuality = 96
+   headline = "My website for ECE 4160."
+   bio = "I'm Reilly Potter, a junior majoring in Electrical and Computer Engineering with a minor in Robotics. I'm interested in assistive robotics and the future of prosthetics. I enjoy playing the drums and video games in my free time."
+   links = [
+     { email = "mailto:rdp78@cornell.edu" },
+     { linkedin = "https://www.linkedin.com/in/reilly-potter-6475212b9/" },
+   ]
