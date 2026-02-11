@@ -1,6 +1,8 @@
 ---
 title: "Lab 1: The Artemis board and Bluetooth"
 date: "2026-02-10"
+showWordCount: false
+showReadingStats: false
 ---
 
 ## 1a

@@ -4,12 +4,10 @@
     <title>Series on ECE 4160 - Fast Robots</title>
     <link>http://localhost:1313/ECE4160-2026/series/</link>
     <description>Recent content in Series on ECE 4160 - Fast Robots</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>rdp78@cornell.edu (Reilly Potter)</managingEditor>
     <webMaster>rdp78@cornell.edu (Reilly Potter)</webMaster>
-    <copyright>© 2026 Reilly Potter</copyright>
     <atom:link href="http://localhost:1313/ECE4160-2026/series/index.xml" rel="self" type="application/rss+xml" />
-    
   </channel>
 </rss>
