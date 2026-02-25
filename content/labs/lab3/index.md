@@ -14,12 +14,12 @@ Both ToF sensors have the same I2C address of 0x52 according to the datasheet, s
 
 ## Battery Setup
 I had to connect a JST connector to a 750mAh battery for use with the Artemis Nano. The black lead of the battery had to be solder to the red of the connector and the red lead to the black for it to connect to the Artemis correctly. Heat shrink was used to cover the solder connecting the battery to the JST connector.
-![Battery](Battery.png)
+![Battery](Battery.jpeg)
 <figcaption>Battery soldered to JST connector</figcaption>
 
 ## ToF Setup
 I started by installing the SparkFun VL53L1X 4m laser distance sensor library and connecting the first ToF sensor to a QWIIC cable. I used a longer cable while referencing the datasheet to solder it, and the blue connected to SDA while the yellow connected to SCL. 
-![ToF Circuit](ToF.png)
+![ToF Circuit](ToF.jpeg)
 <figcaption>ToF sensor soldered and connected to QWIIC breakout and Artemis</figcaption>
 
 I then ran the Example1_wire_I2C to test that the sensor was connected properly.
