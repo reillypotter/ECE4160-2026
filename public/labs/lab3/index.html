@@ -15,8 +15,8 @@
 
   
   
-    <title>Authors &middot; ECE 4160 - Fast Robots</title>
-    <meta name="title" content="Authors &middot; ECE 4160 - Fast Robots">
+    <title>Lab 3: Time of Flight Sensors &middot; ECE 4160 - Fast Robots</title>
+    <meta name="title" content="Lab 3: Time of Flight Sensors &middot; ECE 4160 - Fast Robots">
   
 
   
@@ -24,10 +24,7 @@
   
   
   
-  <link rel="canonical" href="https://reillypotter.github.io/ECE4160-2026/authors/">
-  
-    
-      <link rel="alternate" type="application/rss+xml" href="/ECE4160-2026/authors/index.xml" title="ECE 4160 - Fast Robots" />
+  <link rel="canonical" href="https://reillypotter.github.io/ECE4160-2026/labs/lab3/">
   
 
   
@@ -49,15 +46,18 @@
   
 
   
-  <meta property="og:url" content="https://reillypotter.github.io/ECE4160-2026/authors/">
+  <meta property="og:url" content="https://reillypotter.github.io/ECE4160-2026/labs/lab3/">
   <meta property="og:site_name" content="ECE 4160 - Fast Robots">
-  <meta property="og:title" content="Authors">
+  <meta property="og:title" content="Lab 3: Time of Flight Sensors">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="labs">
+    <meta property="article:published_time" content="2026-02-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-25T00:00:00+00:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Authors">
+  <meta name="twitter:title" content="Lab 3: Time of Flight Sensors">
 
   
   
@@ -206,26 +206,26 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Authors",
-    "name": "Authors",
-    "headline": "Authors",
+    "articleSection": "Labs",
+    "name": "Lab 3: Time of Flight Sensors",
+    "headline": "Lab 3: Time of Flight Sensors",
     
     "inLanguage": "en",
-    "url" : "https://reillypotter.github.io/ECE4160-2026/authors/",
+    "url" : "https://reillypotter.github.io/ECE4160-2026/labs/lab3/",
     "author" : {
       "@type": "Person",
       "name": "Reilly Potter"
     },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-02-25T00:00:00\u002b00:00",
+    "datePublished": "2026-02-25T00:00:00\u002b00:00",
     
-    
-    
-    
-    
+    "dateModified": "2026-02-25T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "575"
   }]
   </script>
 
@@ -608,12 +608,18 @@
       <main id="main-content" class="grow">
         
   
-  
-  <header class="mt-5">
+  <article>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Authors</h1>
-    <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
       
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Lab 3: Time of Flight Sensors
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
 
 
 
@@ -623,6 +629,26 @@
   
 
 
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+
+  
+
+  
 
   
 
@@ -638,20 +664,251 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
+      <time datetime="2026-02-25T00:00:00&#43;00:00">25 February 2026</time>
+    
+
+    
+    
   </div>
 
+  
 
-    </div>
-  </header>
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
   
 
   
 
-    <section class="flex flex-wrap max-w-prose -mx-2 overflow-hidden">
+  
+
+  
+
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          
+<h2 class="relative group">Prelab
+    <div id="prelab" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#prelab" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The goal of this lab was to set up the time of flight sensors prepare them for the RC car&rsquo;s use in detecting obstacles. By placing a sensor at the front of the car and one on the side, the car is able to detect obstacles in front of it as well as on the right side. This allows it to hve better understanding of where it can trun without needing to rotate 90° in order to check for obstacles. This does mean however, the car can&rsquo;t see anything behind as well as leaving the possibility for obstacles to be hit on the edges of the front. With the sensor in the middle of the front, it can&rsquo;t feel capture the width of the car.</p>
+<p>Both ToF sensors have the same I2C address of 0x52 according to the datasheet, so to use both of them, I had to change the address of one on the programs start or cycle the sensors on and off. I opted to change the address of one so I can gather data from the two sensors simultaneously. I also connected the sensors to the longer QWIIC cables so they can easil be placed in front and side fo the car, respectively, while the IMU is connected to a shorter cable.
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="Circuit Diagram"
+    width="960"
+    height="720"
+    src="/ECE4160-2026/labs/lab3/Circuit_hu_f118eff49ffe4c3f.png"
+    srcset="/ECE4160-2026/labs/lab3/Circuit_hu_f118eff49ffe4c3f.png 800w, /ECE4160-2026/labs/lab3/Circuit.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/ECE4160-2026/labs/lab3/Circuit.png"></figure>
+</p>
+<figcaption>Schematic for Tof/IMU circuit. Note: a 850mAh battery is depicted but a 750mAh battery is used for the circuit.</figcaption>
+
+<h2 class="relative group">Battery Setup
+    <div id="battery-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#battery-setup" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I had to connect a JST connector to a 750mAh battery for use with the Artemis Nano. The black lead of the battery had to be solder to the red of the connector and the red lead to the black for it to connect to the Artemis correctly. Heat shrink was used to cover the solder connecting the battery to the JST connector.
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Battery"
+    src="Battery.png"
+    ></figure>
+</p>
+<figcaption>Battery soldered to JST connector</figcaption>
+
+<h2 class="relative group">ToF Setup
+    <div id="tof-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tof-setup" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>I started by installing the SparkFun VL53L1X 4m laser distance sensor library and connecting the first ToF sensor to a QWIIC cable. I used a longer cable while referencing the datasheet to solder it, and the blue connected to SDA while the yellow connected to SCL.
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="ToF Circuit"
+    src="ToF.png"
+    ></figure>
+</p>
+<figcaption>ToF sensor soldered and connected to QWIIC breakout and Artemis</figcaption>
+<p>I then ran the Example1_wire_I2C to test that the sensor was connected properly.
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt="I2C Address"
+    width="584"
+    height="64"
+    src="/ECE4160-2026/labs/lab3/I2C_Address.png"
+    srcset="/ECE4160-2026/labs/lab3/I2C_Address.png 800w, /ECE4160-2026/labs/lab3/I2C_Address.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/ECE4160-2026/labs/lab3/I2C_Address.png"></figure>
+</p>
+<figcaption>I2C address for the ToF sensor</figcaption>
+This address is different from what I expected as the datasheet says the default is 0x52, but the example shows the address as 0x29. When looking at the binary values, you see 0x29 is 00101001 and 0x52 is 01010010. This shows that the value was shifted right by one bit, and this is due to the fact the least significant bit of the 0x52 address is used for read/write.
+
+<h2 class="relative group">ToF Testing
+    <div id="tof-testing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tof-testing" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Next, I used Example1_ReadDistance to test the functionality of the ToF sensor. It has three distinct modes: short, medium, and long. Medium requires another library, so I focused on short and long. Short provides ranges up to 1.3m while long provides up to 4m. Long is very susceptible to ambient light according to the datasheet with it only allowing for ~0.7m under strong light. Short keeps its 1.3m range despite any strong light. Medium is very similar to long except its max range is shorter. These make short seem like the most relibale mode as the lighting conditions can be hard to control for the car.</p>
+
+<h2 class="relative group">Both ToF&rsquo;s
+    <div id="both-tofs" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#both-tofs" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h2 class="relative group">ToF Execution Speed
+    <div id="tof-execution-speed" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tof-execution-speed" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h2 class="relative group">ToF and IMU Testing
+    <div id="tof-and-imu-testing" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#tof-and-imu-testing" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/ECE4160-2026/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_labs\lab3\index.md"
+          data-oid-likes="likes_labs\lab3\index.md"></script>
       
     </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/ECE4160-2026/labs/lab2/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Lab 2: The IMU
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-02-17T00:00:00&#43;00:00">17 February 2026</time>
+              </span>
+            
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+        </span>
+      </div>
+    </div>
   
 
+
+      
+    </footer>
+  </article>
 
         
 
